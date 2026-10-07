@@ -278,7 +278,7 @@ Toni Sender has some tricks up her sleeve.
 @organize_women
 title: Organize
 choose-if: sc_stamina >= 3
-subtitle: Spend turn organizing all other women combatants, halving the stamina costs of their next abilities. (3 stamina) [? if sc_plan == "organize_women" : - **this is our plan** ?]
+subtitle: Spend turn organizing all other women combatants, halving the stamina costs of their next abilities. (3 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -373,7 +373,7 @@ Kurt Rosenfeld has some tricks up his sleeve.
 @appeal
 title: Appeal
 choose-if: sc_stamina >= 3
-subtitle: Spend turn submitting an appeal to the courts alleging the Gold Trigon's actions to be unconstitutional. The Gold Trigon will await the court's verdict so as to avoid breaking the law, skipping its next turn after this one. (3 stamina) [? if sc_plan == "appeal" : - **this is our plan** ?]
+subtitle: Spend turn submitting an appeal to the courts alleging the Gold Trigon's actions to be unconstitutional. The Gold Trigon will await the court's verdict so as to avoid breaking the law, skipping its next turn after this one. (3 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -429,7 +429,6 @@ if (!Q.planning_combat) {
     }
 } else {
     Q[Q.selected_combatant+"_plan"] = "appeal";
-    fail this commit
 }
 
 !}
@@ -444,6 +443,7 @@ go-to: menu if planning_combat
 - @menu: Return
 
 @defense
+title: Defense
 
 @levi_c
 title: Paul Levi
@@ -489,7 +489,7 @@ Paul Levi has some tricks up his sleeve.
 @polemicize
 title: Polemicize
 choose-if: sc_stamina >= 3
-subtitle: Spend turn writing a polemic which criticizes and lambasts the conduct of the Gold Trigon. The Gold Trigon will spend the next turn writing a devastating rebuttal, which will reduce the stamina of all combatants to read, but take the place of its usual attack. (3 stamina) [? if sc_plan == "polemicize" : - **this is our plan** ?]
+subtitle: Spend turn writing a polemic which criticizes and lambasts the conduct of the Gold Trigon. The Gold Trigon will spend the next turn writing a devastating rebuttal, which will reduce the stamina of all combatants to read, but take the place of its usual attack. (3 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -604,7 +604,7 @@ Rudolf Breitscheid has some tricks up his sleeve.
 @parry
 title: Parry
 choose-if: sc_stamina >= 2
-subtitle: Spend turn using the sword gifted to him by the Scythian to parry the incoming attack. Does not work against all attacks, but against some attacks can even reflect them back. (2 stamina) [? if sc_plan == "parry" : - **this is our plan** ?]
+subtitle: Spend turn using the sword gifted to him by the Scythian to parry the incoming attack. Does not work against all attacks, but against some attacks can even reflect them back. (2 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -675,7 +675,7 @@ go-to: menu if planning_combat
 @diplomacy
 title: Diplomacy
 choose-if: sc_stamina >= 4
-subtitle: Spend turn negotiating a treaty with the Gold Trigon. Will buy others a turn, but be guaranteed hit by the Gold Trigon's next attack. (4 stamina) [? if sc_plan == "diplomacy" : - **this is our plan** ?]
+subtitle: Spend turn negotiating a treaty with the Gold Trigon. Will buy others a turn, but be guaranteed hit by the Gold Trigon's next attack. (4 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -790,7 +790,7 @@ Hermann Müller has some tricks up his sleeve.
 
 @gallbladder_operation
 title: Gallbladder Operation
-subtitle: Spend turn getting a galbladder operation. Die. [? if sc_plan == "gallbladder_operation" : - **this is our plan** ?]
+subtitle: Spend turn getting a galbladder operation. Die.
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -919,7 +919,7 @@ Rudolf Hilferding has some tricks up his sleeve.
 @strategize
 title: Strategize
 choose-if: sc_stamina >= 3
-subtitle: Spend turn planning the battle ahead. The next turn, stamina cost for all abilities will be halved, but have to be decided now (3 stamina) [? if sc_plan == "strategize" : - **this is our plan** ?]
+subtitle: Spend turn planning the battle ahead. The next turn, stamina cost for all abilities will be halved, but have to be decided now (3 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -1048,7 +1048,7 @@ go-to: menu if was_already_planning_combat
 @medicine
 title: Medicine
 choose-if: sc_stamina >= 5
-subtitle: Spend turn treating another combatant. Selected combatant will have full health, but will also have to spend their turn being treated (5 stamina) [? if sc_plan == "medicine" : - **this is our plan** ?]
+subtitle: Spend turn treating another combatant. Selected combatant will have full health, but will also have to spend their turn being treated (5 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -1121,7 +1121,7 @@ go-to: menu if planning_combat
 @socialize
 title: Socialize
 choose-if: sc_stamina >= 4
-subtitle: Spend turn using his experience and knowledge on socialization to make friends with one fellow combatant. Once friends, they will get a bonus when taking the same actions as each other. (4 stamina) [? if sc_plan == "socialize" : - **this is our plan** ?]
+subtitle: Spend turn using his experience and knowledge on socialization to make friends with one fellow combatant. Once friends, they will get a bonus when taking the same actions as each other. (4 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -1186,7 +1186,7 @@ Otto Wels has some tricks up his sleeve.
 @reinvigorate
 title: Reinvigorate
 choose-if: sc_stamina >= 1
-subtitle: Spend turn reinvigorating everyone's morale with a passionate speech. Restore everyone's stamina by your own, while completely depleting your own. (up to 9 stamina) [? if sc_plan == "reinvigorate" : - **this is our plan** ?]
+subtitle: Spend turn reinvigorating everyone's morale with a passionate speech. Restore everyone's stamina by your own, while completely depleting your own. (up to 9 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -1253,7 +1253,7 @@ go-to: menu if planning_combat
 @finance
 title: Finance
 choose-if: sc_stamina >= 3
-subtitle: Spend turn calling up German industry to fundraise for the struggle. Gain 1 resource. Resources can be spent to upgrade stats. (3 stamina) [? if sc_plan == "finance" : - **this is our plan** ?]
+subtitle: Spend turn calling up German industry to fundraise for the struggle. Gain 1 resource. Resources can be spent to upgrade stats. (3 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -1340,7 +1340,7 @@ go-to: menu if planning_combat
 title: Attack the **<span style="color:rgb(255, 208, 0);font-family:'Times New Roman',serif;font-weight:700;letter-spacing:0.5px;">Gold Trigon</span>**.
 view-if: selected_combatant != "sender" or sender_attacks < 3
 choose-if: sc_stamina >= 1
-subtitle: An ordinary attack, dealing damage. (1 stamina) [? if sc_plan == "attack" : - **this is our plan** ?]
+subtitle: An ordinary attack, dealing damage. (1 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -1608,7 +1608,7 @@ if (!Q.planning_combat) {
 @defend
 title: Take a defensive stance and attempt to heal.
 choose-if: sc_stamina >= 1
-subtitle: An ordinary defense, regaining 1 HP. (1 stamina) [? if sc_plan == "defend" : - **this is our plan** ?]
+subtitle: An ordinary defense, regaining 1 HP. (1 stamina)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -1862,7 +1862,7 @@ if (!Q.planning_combat) {
 
 @naptime
 title: Take a well-deserved nap to regain stamina. 
-subtitle: An ordinary nap, regaining 3 stamina. (What do you think?) [? if sc_plan == "naptime" : - **this is our plan** ?]
+subtitle: An ordinary nap, regaining 3 stamina. (What do you think?)
 on-arrival: {!
 if (!Q.planning_combat) {
     window.clearCombatStatsIfNeeded();
@@ -3131,7 +3131,7 @@ if (gold_trigon_move.type == "orb") {
         ["bumke", "...the Trigon is entitled to kill all of you."],
         ["trigon", "Thank you, your honor.|"],
         ["rosenfeld", "Dang it!"],
-    ],
+    ];
 
     trigonDialogues.push(...dialogues);
 }
