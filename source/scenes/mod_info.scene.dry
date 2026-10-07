@@ -1,33 +1,33 @@
 title: Mod Info
 go-to: flavors
 
-Note: the base game's github is currently mid-update. I have updated the mod to match the github meaning some things might be slightly broken until the main game has finished updating.
+提示：基础游戏的 GitHub 版本目前仍在更新中。我已尽量让本模组与其同步，因此在主游戏更新完成前，部分内容可能会有轻微问题。
 
 @flavors
 new-page: true
 
-= Mod Info
+= 模组信息
 
-This mod adds a variety of changes to the base game, mostly in the form of flavor and minor improvements.
+该模组为基础游戏添加了多种改动，主要是风味内容与一些小幅改进。
 
-- @left: Left Plan + Council flavor
-- @centrist: Center flavor
-- @moderate: Reformist Plan flavor
-- @economics: Economic changes
-- @sapd: SAPD flavor
-- @extension: Content to 1936
-- @start_dates: 1930 start date, 1925 start date
-- @landtags: Landtags
-- @legislification: "Legislification" of government cards
-- @civil_war_flavor: Civil War flavor
-- @weakened_presidency_hitler: Weakened Presidency + Hitler takeover flavor
-- @hitler_deportation_flavor: Hitler deportation & Austrian politics flavor
-- @coalition_flavor: Coalition flavor
-- @minor_changes: Other minor changes
-- @plans: Plans for the mod
-- @ideas: Ideas and feedback
-- @changelog: Changelog
-- @root: Back
+- @left: 左翼方案与委员会风味
+- @centrist: 中间派风味
+- @moderate: 改良派方案风味
+- @economics: 经济改动
+- @sapd: SAPD 风味
+- @extension: 延伸至 1936 年的内容
+- @start_dates: 1930/1925 开局
+- @landtags: 邦议会
+- @legislification: 政务卡“立法化”
+- @civil_war_flavor: 内战风味
+- @weakened_presidency_hitler: 弱化总统制与希特勒接管风味
+- @hitler_deportation_flavor: 希特勒遣返与奥地利政治风味
+- @coalition_flavor: 联合政府风味
+- @minor_changes: 其他小改动
+- @plans: 模组计划
+- @ideas: 想法与反馈
+- @changelog: 更新日志
+- @root: 返回
 
 @moderate
 

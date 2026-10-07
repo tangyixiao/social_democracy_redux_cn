@@ -1,5 +1,7 @@
 # Social Democracy: An Alternate History
 
+中文说明请见：[README.zh-CN.md](README.zh-CN.md)
+
 ## Included Libraries
 
 [jquery v1.11.1](https://releases.jquery.com/)

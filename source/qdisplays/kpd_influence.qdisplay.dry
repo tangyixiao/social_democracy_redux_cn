@@ -1,9 +1,9 @@
 
 # kpd influence
 
-(..1) marginal
-(1..2) budding
-(2..4) noticeable
-(4..6) considerable
-(6..8) worrying
-(8..) dangerous
+(..1) 边缘
+(1..2) 初现
+(2..4) 明显
+(4..6) 可观
+(6..8) 值得警惕
+(8..) 危险
