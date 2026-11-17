@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "description": "A Chinese edition of Autumn Chen's Social Democracy: An Alternate History. Manage party, government and adviser affairs month by month or open the election simulator."
+  },
+  "pages": {
+    "home": {
+      "title": "Make choices between elections in Weimar Germany · {project}"
+    },
+    "features": {
+      "title": "Features · {project}",
+      "description": "A Chinese edition of Autumn Chen's Social Democracy: An Alternate History. Manage party, government and adviser affairs month by month or open the election simulator."
+    },
+    "download": {
+      "title": "Get started · {project}",
+      "description": "Open the browser build and choose the start-game or election-simulation option."
+    },
+    "community": {
+      "title": "Community · {project}",
+      "description": "Find usage guidance, follow discussions and review changes to this project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Get started",
+    "community": "Community"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "close_navigation": "Close navigation",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "platforms": "Supported platforms",
+    "github": "GitHub",
+    "view_image": "View full illustration",
+    "feature_more": "Explore features",
+    "download": "Start the game",
+    "release_notes": "Source repository",
+    "documentation": "Documentation",
+    "source": "Source repository",
+    "illustration": "First steps",
+    "license": "MIT (code; see media credits)"
+  },
+  "hero": {
+    "title": [
+      "Make choices between elections in Weimar Germany"
+    ],
+    "description": [
+      "A Chinese edition of Autumn Chen's Social Democracy: An Alternate History. Manage party, government and adviser affairs month by month or open the election simulator."
+    ],
+    "primary_action": "Start the game",
+    "secondary_action": "Explore features"
+  },
+  "preview": {
+    "caption": "First steps",
+    "tabs": [
+      {
+        "label": "Get started",
+        "icon": "book"
+      }
+    ],
+    "items": [
+      {
+        "title": "Open the game",
+        "description": "Open the browser build and choose the start-game or election-simulation option.",
+        "icon": "book"
+      },
+      {
+        "title": "Build a local edition",
+        "description": "To edit a scene, get the repository, install dendrynexus and run dendrynexus make-html in its root.",
+        "icon": "link"
+      }
+    ]
+  },
+  "features": {
+    "title": "Project features",
+    "groups": [
+      {
+        "title": "Monthly turns",
+        "description": "Choose an action from the hand and watch adviser cooldowns and upcoming election notices.",
+        "detail": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Election simulation",
+        "description": "The main menu also opens a standalone election simulator, credits and source material.",
+        "detail": "",
+        "icon": "book"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "Get started · {project}",
+    "steps": [
+      {
+        "title": "Open the game",
+        "description": "Open the browser build and choose the start-game or election-simulation option.",
+        "icon": "book"
+      },
+      {
+        "title": "Build a local edition",
+        "description": "To edit a scene, get the repository, install dendrynexus and run dendrynexus make-html in its root.",
+        "icon": "link"
+      }
+    ]
+  },
+  "community": {
+    "title": "Community · {project}",
+    "description": "Find usage guidance, follow discussions and review changes to this project.",
+    "links": [
+      {
+        "label": "Documentation",
+        "description": "Consult the project documentation.",
+        "icon": "book"
+      },
+      {
+        "label": "Source repository",
+        "description": "Find the project and its maintenance links.",
+        "icon": "link"
+      },
+      {
+        "label": "Review changes",
+        "description": "Review open pull requests or prepare a contribution.",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "{copyright}"
+  }
+}

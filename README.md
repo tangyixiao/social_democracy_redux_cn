@@ -17,3 +17,7 @@
 2. Run `dendrynexus make-html` in this folder.
 
 To update dendrynexus in `package-lock.json`, run `npm install --upgrade https://github.com/aucchen/dendrynexus`
+
+## Project website
+
+Download or clone this repository, then open the [English homepage](project-website/site/en/index.html) or [中文首页](project-website/site/index.html) in your browser. Both versions work offline.
