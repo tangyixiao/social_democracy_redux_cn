@@ -17,3 +17,7 @@
 如果需要更新 `package-lock.json` 中的 dendrynexus 版本，运行：
 
 `npm install --upgrade https://github.com/aucchen/dendrynexus`
+
+## 项目网站
+
+下载或克隆仓库后，用浏览器打开[中文首页](project-website/site/index.html)或 [English homepage](project-website/site/en/index.html)。两个版本都可以离线阅读。
